@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Forms!!!
+    </title>
+    <style>
+        h1 {
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        .All {
+            font-size: 30px;
+            font-weight: 200;
+            font-family: cursive;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> This is the various forms that we are gonna try!!!</h1>
+    <ul class="All">
+        <li>Text</li>
+        <li>Password</li>
+        <li>Radio</li>
+        <li>Data-list</li>
+    </ul>
+    <form class="All">
+        <div>
+            <p>1. Text format</p>
+            <input type="text" placeholder="Your name" name="name">
+            <p>2. Password format</p>
+            <input type="password" placeholder="Password" name="password">
+        </div>
+        <div>
+            <p>3. Radio</p>
+            <input name="color" type="radio" value="rsed">red
+            <input name="color" type="radio" value="blue">blue
+            <input name="color" type="radio" value="orange">orange
+            <input name="color" type="radio" value="green">green
+        </div>
+        <div>
+            <p>4. Data-list</p>
+            <input name="player" list="names" placeholder="Player_name">
+            <datalist id="names">
+                <option value="Vidhan">
+                <option value="Surabhi">
+                <option value="Chahak">
+                <option value="Papa">
+                <option value="Maa">
+                <option value="Dadaji">
+                <option value="Daadi">
+            </datalist>
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
