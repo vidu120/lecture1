@@ -1,0 +1,18 @@
+.your, .you, .me {
+  font-style: oblique;
+  background-color: blue;
+}
+
+.me {
+  border: 2 px solid black;
+}
+
+.you {
+  border: 3 px solid green;
+}
+
+.your {
+  border: 4 px solid cornflowerblue;
+}
+
+/*# sourceMappingURL=inheritance.css.map */

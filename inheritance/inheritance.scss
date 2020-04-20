@@ -1,0 +1,16 @@
+%message{
+    font-style: oblique;
+    background-color:blue;
+}
+.me{
+    @extend %message;
+    border:2 px solid black;
+}
+.you{
+    @extend %message;
+    border:3 px solid green;
+}
+.your{
+    @extend %message;
+    border:4 px solid cornflowerblue;
+}
